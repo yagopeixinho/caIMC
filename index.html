@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico" />
+    <title>caIMC</title>
+  </head>
+  <body>
+    <div class="container-calculadora">
+      <div class="content-calculadora">
+        <head>
+          <h1 class="titulo-formulario">Calculadora IMC</h1>
+        </head>
+        <main>
+          <div class="formulario-conteudo">
+            <div class="container-input">
+              <label class="label-input"> seu nome </label>
+              <input type="text" id="nome" class="input-formulario" />
+            </div>
+
+            <div class="container-input">
+              <label class="label-input"> sua altura (m) </label>
+              <input type="number" id="altura" class="input-formulario" />
+            </div>
+
+            <div class="container-input">
+              <label class="label-input"> seu peso (kg) </label>
+              <input type="number" id="peso" class="input-formulario" />
+            </div>
+
+            <div class="container-botao">
+              <button type="submit" id="calcular" class="botao-calcular">
+                Calcular
+              </button>
+            </div>
+          </div>
+        </main>
+        <footer>
+          <div id="resultado" class="resultado">
+            <!-- o resultado vai aparecer aqui -->
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

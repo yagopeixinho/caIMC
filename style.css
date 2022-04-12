@@ -1,0 +1,87 @@
+/* imports  */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 2.4% 0 0 0;
+  padding: 0%;
+  background: #009fff;
+  background: -webkit-linear-gradient(to right, #ec2f4b, #009fff);
+  background: linear-gradient(to right, #ec2f4b, #009fff);
+}
+
+.container-calculadora {
+  display: flex;
+  justify-content: center;
+}
+
+.content-calculadora {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(166, 178, 218);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  border-radius: 20px;
+  max-width: 290px;
+  min-width: 290px;
+  min-height: 490px;
+  padding: 30px;
+}
+
+.titulo-formulario {
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.formulario-conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-input {
+  margin: 4px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+.input-formulario {
+  border: 1.8px solid #009fff;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 8px;
+  outline: none;
+}
+
+.container-input {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-botao {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+
+}
+
+.botao-calcular {
+  border-radius: 50px;
+  padding: 10px;
+  border: 1px solid #6c5cfd;
+  background-color: rgb(57, 68, 223);
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
