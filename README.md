@@ -3,8 +3,6 @@
 # caIMC
 the calM is a simple software that is able to check if you are over, under or at your ideal weight!
 
-<br>
-
 ## WHY DOES THIS PROJECT EXIST?
 Because it's something relatively simple, it's just a small project that serves as training for HTML, CSS and JavaScript.
 
